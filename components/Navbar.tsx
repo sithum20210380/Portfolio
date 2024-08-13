@@ -15,10 +15,10 @@ const Navbar: React.FC<{}> = () => {
           <Image
             src="/logo1.png"
             alt="Sithum Raveesha Logo"
-            width={50}
-            height={50}
-            sizes="50vw"
-            className="w-full h-auto"
+            width={90}
+            height={90}
+            sizes="100vw"
+            className="w-[180px] h-[40px] h-auto"
           />
         </a>
 
