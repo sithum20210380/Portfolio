@@ -13,18 +13,18 @@ const Navbar: React.FC<{}> = () => {
           className="h-auto w-auto flex flex-row items-center"
         >
           <Image
-            src="/Logo.svg"
-            alt="Ibii Memon Logo"
-            width={100}
-            height={100}
-            sizes="100vw"
+            src="/logo1.png"
+            alt="Sithum Raveesha Logo"
+            width={50}
+            height={50}
+            sizes="50vw"
             className="w-full h-auto"
           />
         </a>
 
         <div className="flex flex-row gap-5">
           <div
-            onClick={() => window.open("mailto:ibrahimmemon930@gmail.com")}
+            onClick={() => window.open("mailto:sithum18aveesha@gmail.com")}
             className=" z-[1] bg-transparent  padding-10 cursor-pointer bg-black hover:bg-[#2E2E2E] rounded-xl  text-white  py-2 px-5"
           >
             Contact

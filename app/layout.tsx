@@ -9,8 +9,8 @@ import Navbar from "@/components/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://ibiimemon.com/"),
-  title: "Sithum Raveesha - SWE | IXD | UX",
+  metadataBase: new URL("https://sithum-raveesha.vercel.app/"),
+  title: "Sithum Raveesha - Portfolio",
   description:
     "Frontend & Mobile App Developer from SriLanka with 2+ years of expertise. Software Engineer. Specializing mobile apps, Web, UX, and JavaScript technologies.",
   keywords: [
@@ -24,13 +24,13 @@ export const metadata: Metadata = {
     "Android",
   ],
   openGraph: {
-    title: "Sithum Raveesha - SWE | IXD | UX",
+    title: "Sithum Raveesha - Portfolio",
     description:
       "Frontend & Mobile App Developer from SriLanka with 2+ years of expertise. Software Engineer. Specializing mobile apps, Web, UX, and JavaScript technologies.",
     images: "/OpenGraph.jpg",
   },
   alternates: {
-    canonical: "https://ibiimemon.com/",
+    canonical: "https://sithum-raveesha.vercel.app/",
   },
 };
 

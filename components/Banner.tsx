@@ -31,8 +31,8 @@ const Banner: React.FC<{}> = () => {
         </div>
 
         <p className="text-md text-gray-200 my-5 max-w-[600px]">
-          Passionate Software Engineer with a focus on React Native development,
-          dedicated to crafting elegant and user-friendly mobile applications.
+          Passionate Software Engineer with a focus on Mobile development & FullStack Development,
+          dedicated to crafting elegant and user-friendly FullStack applications.
         </p>
         <div className="text-md flex justify-center">
           <button
