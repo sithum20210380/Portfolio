@@ -49,11 +49,10 @@ const Projects: React.FC<{}> = () => {
                 alt="HireSide"
               />
               <div className="p-3">
-                <p className="text-white font-semibold text-xl">HireSide</p>
+                <p className="text-white font-semibold text-xl">Weather App for IOS</p>
                 <p className="text-gray-500 text-[10px]">
-                  Developed a web application on Next.js that allows users to
-                  apply for jobs, create job posts, and manage their company
-                  profiles.
+                  Developed an iOS app that provides real-time weather updates, 
+                  utilizing the OpenWeather API for accurate information.
                 </p>
               </div>
             </div>
@@ -75,10 +74,10 @@ const Projects: React.FC<{}> = () => {
               />
               <div className=" p-3 ">
                 <p className="text-white font-semibold text-xl">
-                  Verge Systems
+                  MealBuddy
                 </p>
                 <p className="text-gray-500 text-[10px]">
-                  Developed the Verge Systems website using React.js.
+                  Developed this mobile application with kotlin and SQLite to generate food recipes for any kind of user needs.
                 </p>
               </div>
             </div>
@@ -97,9 +96,10 @@ const Projects: React.FC<{}> = () => {
                 alt="Payoasis"
               />
               <div className="p-3 ">
-                <p className="text-white font-semibold text-xl">Payoasis</p>
+                <p className="text-white font-semibold text-xl">Patient 360</p>
                 <p className="text-gray-500 text-[10px]">
-                  Designed the modern UI for a banking website utilizing Gatsby.
+                  Developed this multimodal depression detection system
+                  for early and acurate identification of depressive symptoms.
                 </p>
               </div>
             </div>

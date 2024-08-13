@@ -34,11 +34,18 @@ const Banner: React.FC<{}> = () => {
           Passionate Software Engineer with a focus on Mobile development & FullStack Development,
           dedicated to crafting elegant and user-friendly FullStack applications.
         </p>
-        <div className="text-md flex justify-center">
+        <div className="text-md flex justify-center gap-4">
           <button
-            onClick={() => window.open("mailto:ibrahimmemon930@gmail.com")}
-            className=" z-[1]     padding-20  hover:bg-white rounded-3xl  text-white font-semibold hover:text-black py-3 px-10  border-[0.1px] border-white hover:border-transparent ">
+            onClick={() => window.open("mailto:sithum18raveesha@gmail.com")}
+            className="z-[1] padding-20 hover:bg-white rounded-3xl text-white font-semibold hover:text-black py-3 px-10 border-[0.1px] border-white hover:border-transparent"
+          >
             Contact Me
+          </button>
+          <button
+            onClick={() => window.open("https://drive.google.com/file/d/1vj-ykHIMh0coWnre5QLcyaCCrgmNfkQY/view?usp=sharing", "_blank")}
+            className="z-[1] padding-20 hover:bg-white rounded-3xl text-white font-semibold hover:text-black py-3 px-10 border-[0.1px] border-white hover:border-transparent"
+          >
+            Download CV
           </button>
         </div>
       </div>
