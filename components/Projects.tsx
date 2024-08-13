@@ -36,7 +36,7 @@ const Projects: React.FC<{}> = () => {
             </div>
           </Link>
           <Link
-            href="https://hireside.com/"
+            href="https://github.com/sithum20210380/weatherApp"
             rel="noopener noreferrer"
             target="_blank"
             className="z-[1]"
@@ -60,7 +60,7 @@ const Projects: React.FC<{}> = () => {
         </div>
         <div className="flex-col flex md:flex-row ">
           <Link
-            href="https://www.vergesystems.com/"
+            href="https://github.com/sithum20210380/Meal-Buddy"
             rel="noopener noreferrer"
             target="_blank"
             className="z-[1]"
@@ -83,7 +83,7 @@ const Projects: React.FC<{}> = () => {
             </div>
           </Link>
           <Link
-            href="http://44.201.47.75/"
+            href="https://github.com/sithum20210380/ICONS-FINAL"
             rel="noopener noreferrer"
             target="_blank"
             className="z-[1]"
