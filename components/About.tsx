@@ -14,8 +14,7 @@ const About: React.FC<{}> = () => {
         </p>
         <p className="text-gray-300 text-center ">
           As a passionate software engineer, I thrive on the intricate dance
-          between logic and creativity. Currently immersed in the dynamic world
-          of WebHR, my expertise centers around React Native, where I seamlessly
+          between logic and creativity. My expertise centers around React Native & ReactJS, where I seamlessly
           blend technology with innovation.
           <br />
           <br />

@@ -3,6 +3,7 @@ import Banner from "@/components/Banner";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
 import Projects from "@/components/Projects";
+import RecentProjects from "@/components/RecentProjects";
 
 export default function Home() {
   return (
@@ -11,7 +12,8 @@ export default function Home() {
         <Banner />
         <About />
         <Experience />
-        <Projects />
+        {/* <Projects /> */}
+        <RecentProjects />
         <Footer />
       </div>
     </main>
