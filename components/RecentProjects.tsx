@@ -17,7 +17,7 @@ const RecentProjects: React.FC<{}> = () => {
                     return (
                         <div
                             key={project.title}
-                            className="flex flex-col items-center justify-center w-[500px] h-[300px] bg-[#1a1a1a] rounded-xl p-5 cursor-pointer"
+                            className="flex flex-col items-center justify-center w-[500px] h-[320px] bg-[#1a1a1a] rounded-xl pr-5 pl-5 pt-8 pb-8 cursor-pointer"
                         >
                             <Image
                                 src={project.image}
