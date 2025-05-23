@@ -47,7 +47,7 @@ const Experience: React.FC<{}> = () => {
         <div className=" container mx-auto 2xl ">
           <div className="md:flex md:flex-row md:justify-between pt-5">
             <div className="flex items-center gap-3">
-              <Image src={"/deepl.png"} height={30} width={30} alt={"DeepL Blockchain"} />
+              <Image src={"/deepLTech.png"} height={30} width={30} alt={"DeepL Blockchain"} />
               <p className="text-gray-300 ">
                 <span className="font-semibold">DeepL Blockchain Technologies /</span> Backend Developer
               </p>
