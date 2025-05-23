@@ -3,6 +3,7 @@ import Banner from "@/components/Banner";
 import Experience from "@/components/Experience";
 import Footer from "@/components/Footer";
 import Projects from "@/components/Projects";
+import Credentials from "@/components/Credentials";
 import RecentProjects from "@/components/RecentProjects";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
         <Experience />
         {/* <Projects /> */}
         <RecentProjects />
+        <Credentials />
         <Footer />
       </div>
     </main>
