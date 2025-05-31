@@ -17,6 +17,13 @@ const Credentials: React.FC<{}> = () => {
       image: "/Serverless.png",
       issueDate: "June 2024",
       link: "https://www.credly.com/badges/96cfd50b-f509-4e1f-a694-75b8db7a03bd/linked_in_profile",
+    },
+    {
+      id: 3,
+      title: "Microsoft Certified: Azure AI Fundamentals",
+      image: "/azure.png",
+      issueDate: "May 2025",
+      link: "https://www.credly.com/badges/a04cf8c5-5def-4f16-87fa-ddee8dfd16b7",
     }
   ]
 
@@ -27,7 +34,7 @@ const Credentials: React.FC<{}> = () => {
         EXPLORE NOW
       </p>
       <div className="container mx-auto 2xl">
-        <div className="flex flex-wrap justify-center gap-8 mt-10">
+        <div className="flex-col items-center justify-center flex md:flex-row gap-8 mt-7">
           {awsBadges.map((badge) => (
             <Link key={badge.id} href={badge.link} rel="noopener noreferrer" target="_blank" className="z-[1]">
               <div className="flex flex-col items-center bg-[#1a1a1a] p-6 rounded-xl w-[280px] transition-transform hover:scale-105">
